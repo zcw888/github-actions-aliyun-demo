@@ -30,4 +30,5 @@ jobs:
           REMOTE_HOST: '39.106.80.206' # 你的阿里云公网地址
           REMOTE_PORT: 9528
           REMOTE_USER: root # 阿里云登录后默认为 sshtest 用户，并且所在文件夹为 sshtest
-          TARGET: /home/sshtest/upload # 打包后的 dist 文件夹将放在这里
+          TARGET: /home/sshtest/upload # 打包后的 dist
+
